@@ -1908,7 +1908,7 @@ pipe.enable_xformers_memory_efficient_attention()
 # single model test
 # User input
 prompt= "An old man is telling a story to a little girl"
-para_dict = GPT4(prompt,key='sk-3e15c18401684825921793fc26b67916')
+para_dict = GPT4(prompt,key='sk-xxx')
 split_ratio = para_dict['Final split ratio']
 regional_prompt = para_dict['Regional Prompt']
 negative_prompt = "worst quality, low quality, bad hands, deformed limbs, extra limbs, blurry, text, watermark, signature"
